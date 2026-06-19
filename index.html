@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Steve universo</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário Steve Universo</h1>
+    </header>
+
+    <main>
+        <form action="O melhor do universo" method="POST">
+          <section>
+            <h2><label for="nome">Nome:</label></h2>
+            <!--Seção dados do usuário-->
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Insira seu nome"
+              required
+            />
+            <br /><br />
+
+            <h2><label for="mensagem">Mensagem:</label></h2>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              placeholder="Personagem favorito de Steve Universo"
+              required
+            ></textarea>
+            <br /><br />
+
+            <h2><label for="idade">Idade:</label></h2>
+          <input
+            type="number"
+            id="idade"
+            name="idade"
+            min="1"
+            max="120"
+            placeholder="Digite sua idade"
+            required
+          />
+          <br /><br />
+        </section>
+
+        <section>
+            <h2><label for="classe">Personagem Preferido:</label></h2>
+            <!--Seção perguntas sobre RE:Zero-->
+            <select id="classe" name="classe" required>
+              <option value="">Selecione uma opção</option>
+              <option value="Garnet">Priscilla Barielle</option>
+              <option value="Ametista">Emilia</option>
+              <option value="Perola">Otto Suwen</option>
+              <option value="Steve">Pack</option>
+            </select>
+            <br /><br />
+          </section>
+
+          <section>
+            <h2><label for="data">Data de envio:</label></h2>
+            <!--Seção dados do formulário-->
+            <input type="date" id="data" name="data" required />
+            <br /><br />
+  
+            <button type="submit">Mandar</button>
+          </section>
+        </form>
+      </main>
+  
+      <footer>
+        <h4>
+          <p>
+            ©600AC-1000AC Todos os direitos reservados. Lilliana Masquerade® é
+            marca registrada da Priestella Group. Miguel Steinbach Auache
+            Negreiros Bodden é o desenvolvidor da estrutura deste formulário.
+          </p>
+        </h4>
+        <h5>Contate-nos no centro da fonte de Priestella das 13h-21h</h5>
+        <h5>Serviços de música para festas disponíveis, por favor contatar</h5>
+      </footer>
+    </body>
+  </html>
+  
+</body>
+</html>
