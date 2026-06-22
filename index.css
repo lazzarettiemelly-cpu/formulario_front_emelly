@@ -1,0 +1,115 @@
+/* Fundo geral */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #5b0f0f, 
+        #6a0dad, 
+        #3498db, 
+        #7fffd4, 
+        #ffc0cb, 
+        #f1c40f, 
+        #e67e22, 
+        #2ecc71 
+    );
+    background-size: 400% 400%;
+    animation: fundoAnimado 15s ease infinite;
+    margin: 0;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(91, 15, 15, 0.9);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #f1c40f;
+}
+
+/* Título */
+h1 {
+    color: #ffc0cb;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Formulário */
+form {
+    background-color: rgba(106, 13, 173, 0.85);
+    width: 70%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.label_form {
+    color: #7fffd4;
+}
+
+/* Campos */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Foco */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #f1c40f;
+    box-shadow: 0 0 10px #f1c40f;
+}
+
+/* Botão */
+button {
+    background-color: #9122e6;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(46, 204, 113, 0.85);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    color: #fff;
+    border-top: 4px solid #ffc0cb;
+}
+
+/* Subtítulos */
+h2 {
+    color: #ffc0cb;
+}
+
+h3 {
+    color: #f1c40f;
+}
+
+h4 {
+    color: #ffffff;
+}
